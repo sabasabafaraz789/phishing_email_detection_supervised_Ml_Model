@@ -12,20 +12,20 @@ The goal is to help improve email security by detecting phishing attempts effici
 
 ---
 
-## ⚙️ Workflow Pipeline
+##  Workflow Pipeline
 
-### ✅ Step 1: Data Loading
+###  Step 1: Data Loading
 
 * Phishing email dataset [Phishing Email Dataset](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset)
 
-### ✅ Step 2: Data Cleaning & Preprocessing
+###  Step 2: Data Cleaning & Preprocessing
 
 * Remove special characters, punctuation
 * Convert text into lowercase
 * Remove stopwords
 * Tokenization
 
-### ✅ Step 3: Feature Extraction
+###  Step 3: Feature Extraction
 
 To convert text into numerical format:
 
@@ -34,7 +34,7 @@ To convert text into numerical format:
 
 ---
 
-### ✅ Step 4: Model Training
+###  Step 4: Model Training
 
 Train multiple supervised classifiers such as:
 
@@ -45,19 +45,20 @@ Train multiple supervised classifiers such as:
 
 ---
 
-### ✅ Step 5: Model Evaluation
+###  Step 5: Model Evaluation
 
 Performance is evaluated using:
 
-* Accuracy Score 
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-
+* Accuracy Score:  1.00
+* Precision: 1.00
+* Recall: 1.00
+* F1-Score:  1.00
+* Confusion Matrix:
+[[3453    9]
+ [0   4369]]
 ---
 
-### ✅ Step 6: Real Email Prediction
+###  Step 6: Real Email Prediction
 
 The pipeline supports prediction on real-world email text:
 
@@ -66,7 +67,7 @@ The pipeline supports prediction on real-world email text:
 
 ---
 
-## 📊 Results
+##  Results
 
 The trained model successfully detects phishing emails with strong accuracy and classification performance.
 
